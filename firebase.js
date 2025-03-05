@@ -18,5 +18,5 @@ const app = initializeApp(firebaseConfig);
 export const db = getFirestore(app);
 export const auth = getAuth(app);
 
-// Exporta solo los métodos necesarios
+
 export { collection, getDocs, query, where, orderBy, startAfter, limit };
